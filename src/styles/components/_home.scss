@@ -1,0 +1,31 @@
+  
+.home {
+    // background-color: lightgreen;
+
+  .homeContent {
+    padding-left: 25%;  
+    width: 100%;
+    padding-top: 100px;
+    text-align: center ;
+    a {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+
+    }
+    h1 {
+    text-align: center;
+}
+
+  }
+}
+
+
+
+@media screen and (max-width: 820px){
+    .home {   
+        .homeContent {
+            padding-left: 0;  
+
+        }
+    }     
+}
