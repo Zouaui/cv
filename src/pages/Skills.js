@@ -11,10 +11,10 @@ const Skills = () => {
                     <h1>SKILLS</h1>
                     <div className="test">
                         <h3>OPERATING SYSTEM:</h3>
-                            <Tooltip title="5 - 6 - 7" >
+                            <Tooltip title="Vesions: 5 - 6 - 7" >
                                 <img src="./media/redhat.svg" alt="profil-pic"/>   
                             </Tooltip>    
-                            <Tooltip title="5 - 6 - 7" >                                                     
+                            <Tooltip title="Vesions: 5 - 6 - 7" >                                                     
                                 <img src="./media/centos.svg" alt="profil-pic"/>
                             </Tooltip>
                             <img src="./media/windows.svg" alt="profil-pic"/>
@@ -27,10 +27,10 @@ const Skills = () => {
                             <img src="./media/google-cloud-icon.svg" alt="profil-pic"/>
                         </Tooltip> 
                     <h3>CONTAINERS:</h3>
-                        <Tooltip title="1.4 - 1.9">
+                        <Tooltip title="Vesions: 1.4 => 1.9">
                             <img src="./media/kubernetes.svg" alt="profil-pic"/>
                         </Tooltip>    
-                        <Tooltip title="3.x - 4.x">
+                        <Tooltip title="Vesions: 3.x - 4.x">
                             <img src="./media/openshift.svg" alt="profil-pic"/>
                         </Tooltip> 
                     <h3>PROGRAMMING LANGUAGES:</h3>   
@@ -43,12 +43,12 @@ const Skills = () => {
                         <Tooltip title="Jenkins x, jenkins 2.x.x">
                             <img src="./media/the-jenkins-project-icon.svg" alt="profil-pic"/>
                         </Tooltip>
-                        <Tooltip title="Jenkins x, jenkins 2.x.x">
+                        <Tooltip title="ArgoCD: GitOps methodology">
                             <img src="./media/argo-icon.svg" alt="profil-pic"/>
                         </Tooltip>
                     
                     <h3>OTHER:</h3>
-                        <Tooltip title="traefik 1.X - 2.2">
+                        <Tooltip title="Traefik: Ingress For Kubernetes Cluster; Versions: 1.X - 2.2">
                             <img src="./media/traefik-icon.png" alt="profil-pic"/>
                         </Tooltip>     
                 </div>
