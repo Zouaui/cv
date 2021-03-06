@@ -1,11 +1,19 @@
 .skills {
-
     .skillsContent {
-
         font-size: 2rem;
         padding-left: 400px;
-        width: 100%;
-        overflow: scroll;
+        height: max-content;
+        scroll-margin: inherit;
+        width: 1000px;
+        .content {
+          height: 2000px;
+          
+          
+        }
+        
+
+
+        
         img {
           width: 3rem;
           padding-left: 5rem;          
@@ -35,17 +43,17 @@
     }
 }
 
-@media screen and (max-width: 730px){
-    .skills {
+// @media screen and (max-width: 730px){
+//     .skills {
       
-        .skillsContent {
+//         .skillsContent {
 
-        height: 100%;
-        margin-top: 100px;
-        padding-left: 40px;    
-        h1 {
-            text-align: center;
-        }
-        }
-    }
-}
+//         height: 100%;
+//         margin-top: 100px;
+//         padding-left: 40px;    
+//         h1 {
+//             text-align: center;
+//         }
+//         }
+//     }
+// }

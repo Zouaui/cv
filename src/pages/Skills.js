@@ -9,7 +9,7 @@ const Skills = () => {
             <div className="skillsContent">
                 <div className="content">
                     <h1>SKILLS</h1>
-                    <div className="test">
+                    <div className="os">
                         <h3>OPERATING SYSTEM:</h3>
                             <Tooltip title="Vesions: 5 - 6 - 7" >
                                 <img src="./media/redhat.svg" alt="profil-pic"/>   
@@ -27,21 +27,31 @@ const Skills = () => {
                             <img src="./media/google-cloud-icon.svg" alt="profil-pic"/>
                         </Tooltip> 
                     <h3>CONTAINERS:</h3>
-                        <Tooltip title="Vesions: 1.4 => 1.9">
+                        <Tooltip title="Vesions: 1.4 => Current">
                             <img src="./media/kubernetes.svg" alt="profil-pic"/>
                         </Tooltip>    
                         <Tooltip title="Vesions: 3.x - 4.x">
                             <img src="./media/openshift.svg" alt="profil-pic"/>
                         </Tooltip> 
+                    <h3>AUTOMATION</h3>    
+                        <Tooltip title="Automation tools">
+                        <img src="./media/ansible.svg" alt="profil-pic"/>
+                        </Tooltip>
+                        <Tooltip title="Infrastructure As Code">
+                        <img src="./media/terraform.svg" alt="profil-pic"/>
+                        </Tooltip>
                     <h3>PROGRAMMING LANGUAGES:</h3>   
                         <Tooltip title="Python 2.7 - 3.6 - 3.7 - 3.9">
                             <i className="fab fa-python"></i>
                         </Tooltip>    
                         <i className="fab fa-node-js"></i>
-                        <i class="fab fa-react"></i>
+                        <i className="fab fa-react"></i>
                     <h3>CI/CD:</h3>
                         <Tooltip title="Jenkins x, jenkins 2.x.x">
                             <img src="./media/the-jenkins-project-icon.svg" alt="profil-pic"/>
+                        </Tooltip>
+                        <Tooltip title="Circle-CI">
+                            <img src="./media/circleci.svg" alt="profil-pic"/>
                         </Tooltip>
                         <Tooltip title="ArgoCD: GitOps methodology">
                             <img src="./media/argo-icon.svg" alt="profil-pic"/>
@@ -51,6 +61,7 @@ const Skills = () => {
                         <Tooltip title="Traefik: Ingress For Kubernetes Cluster; Versions: 1.X - 2.2">
                             <img src="./media/traefik-icon.png" alt="profil-pic"/>
                         </Tooltip>     
+                            
                 </div>
             </div>
         </div>
