@@ -4,12 +4,8 @@
         padding-left: 400px;
         height: max-content;
         scroll-margin: inherit;
-        width: 1000px;
-        .content {
-          height: 2000px;
-          
-          
-        }
+        // width: 1000px;
+        
         
 
 
@@ -43,17 +39,17 @@
     }
 }
 
-// @media screen and (max-width: 730px){
-//     .skills {
+@media screen and (max-width: 730px){
+    .skills {
       
-//         .skillsContent {
+        .skillsContent {
 
-//         height: 100%;
-//         margin-top: 100px;
-//         padding-left: 40px;    
-//         h1 {
-//             text-align: center;
-//         }
-//         }
-//     }
-// }
+        height: 100%;
+        margin-top: 100px;
+        padding-left: 40px;    
+        h1 {
+            text-align: center;
+        }
+        }
+    }
+}
