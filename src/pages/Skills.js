@@ -45,7 +45,11 @@ const Skills = () => {
                             <i className="fab fa-python"></i>
                         </Tooltip>    
                         <i className="fab fa-node-js"></i>
-                        <i className="fab fa-react"></i>
+                        
+                    <h3>FRAMEWORK:</h3>
+                        <Tooltip title="This pages are proof :)">
+                            <i className="fab fa-react"></i>
+                        </Tooltip>    
                     <h3>CI/CD:</h3>
                         <Tooltip title="Jenkins x, jenkins 2.x.x">
                             <img src="./media/the-jenkins-project-icon.svg" alt="profil-pic"/>
