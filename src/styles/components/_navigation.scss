@@ -1,10 +1,8 @@
 .sidebar {
-    
     background: $color-1;
     height: 100%;
     position: fixed;
     width: 300px;
-
     font-family: $font-1;
     display: grid;   
     grid-template-columns: 1fr;
@@ -18,28 +16,13 @@
         text-align: center;
         user-select: none;
         position: relative;
-    
             .idContent {
                 position:inherit;
-                
-                // bottom: 0;
-                // left: 50%;
-                // transform: translateX(-50%);
-                // width: 100%;
-            
             img {
                 border-radius: 8px;
                 width: 40%;
                 margin-top: 5rem;
-                
             }   
-            // h3 {
-            //     font-size: 1.3rem;
-            //     text-transform: uppercase;
-            //     letter-spacing: .2rem;
-            //     margin-top: 1.5rem;
-            //     color: black;
-            // }
         }
     }
 }
@@ -47,7 +30,6 @@
 .navigation {
     grid-area: 2;
     padding: 2rem 1rem;
-
     ul {
         height: 100%;
         display: grid;
@@ -57,9 +39,6 @@
             font-size: 1.3rem;
             position: relative;
             padding-right: 120px;
-
-            // color: black;
-
             a {
                 color: black   
             }
@@ -93,10 +72,9 @@ ul {
         display: inline-flex;
         align-items: center;
         justify-content: center;
+      }
     }
-    }
-
-    
+   
 }
 
 
@@ -107,21 +85,16 @@ ul {
       display: flex;
       height: inherit;
       margin-bottom: .2rem;
-
       .id, .socialNetwork {
           display: none;
       }
       .navigation {
           width: 100%;
           padding: .1rem 1rem;
-
           ul {
               display: flex;
               justify-content: space-between;
           }
-    //       span {
-    //           margin-left: 1.5rem !important;
-    //       }
       }
     }
 }

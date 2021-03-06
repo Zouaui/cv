@@ -1,11 +1,6 @@
   
 .home {
-    // background-color: lightgreen;
-    // padding: 300px;
-
-
   .homeContent {
-
     padding-left: 300px;  
     width: 100%;
     padding-top: 100px;
@@ -13,7 +8,6 @@
     a {
     color: black;
     font-family: 'Courier New', Courier, monospace;
-
     }
     h1 {
     text-align: center;
@@ -28,7 +22,7 @@
     .home {   
         .homeContent {
             padding-left: 0;  
-
+            
         }
     }     
 }
