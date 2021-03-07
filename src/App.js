@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import Progress from './pages/Progress'
 import Version from './pages/Version'
+import Inprogress from './pages/Inprogress'
 
 
 
@@ -18,6 +19,7 @@ const App = () => {
                 <Route path="/experience" component={Progress} />
                 <Route path="/contact" component={Progress} />
                 <Route path="/version" component={Version} />
+                <Route path="/inprogress" component={Inprogress} />
                 <Route component={NotFound} />
             </Switch>    
         </BrowserRouter>
